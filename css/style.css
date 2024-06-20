@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin: 30px;
+}
+
+.estiloParrafoIndex{
+    font-size: 25px;
+    padding: 2rem;
+}
+
+.navbar nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li{
+    list-style: none !important;
+    text-decoration: none !important;
+    margin: 20px;
+}
+
+h4{
+    padding: 10px;
+    font-size: 20px;
+}
+
+#carrito{
+    padding: 10px;
+    font-size: 20px;
+}
+/* estilos de los productos  */
+
+#listaProductos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caja{
+    height:auto;
+    width: 400px;
+    font-size: 28px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #DEB887;
+    text-align: center;
+    border: 2px solid #8c540c;
+}
+
+.boton{
+    font-size: 15px;
+    background-color: bisque;
+    margin-top: 20px;
+    height:auto;
+    width:100px;
+    padding: 8px;    
+}
+
+.botonCompra{
+    margin-left: 40px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color:#8c540c ;
+    font-size: 18px;
+}
+
+/* FOOTER */
+
+#footer{
+    background-color:#DEB887;
+    font-size: 18px;
+    text-align: center;
+    background-size: contain;
+    padding: 20px;
+}
